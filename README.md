@@ -49,11 +49,18 @@ Bash
 ```
 uvicorn main:app --reload
 ```
+
+🏠 Mensaje de bienvenida: 
+
 ```
-🏠 Mensaje de bienvenida: http://127.0.0.1:8000
+http://127.0.0.1:8000
 ```
+
+
+📖 Documentación Swagger: 
+
 ```
-📖 Documentación Swagger: http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/docs
 ```
 
 6. Ejecutar la Interfaz Visual (Frontend)
@@ -62,8 +69,11 @@ No cierres la primera terminal. Abre una nueva terminal en esa misma carpeta y l
 ```
 Bash
 streamlit run dashboard.py
+```
+
+
+🖥️ Panel interactivo: Se abrirá automáticamente en tu navegador en: 
 
 ```
-```
-🖥️ Panel interactivo: Se abrirá automáticamente en tu navegador en http://localhost:8501.
+http://localhost:8501.
 ```

@@ -18,6 +18,9 @@ app = FastAPI(
     description="API MVP que gestiona capítulos y automatiza tarjetas en Trello.",
     version="1.0.0"
 )
+@app.get("/")
+def read_root():
+    return {"mensaje": "¡Bienvenido a la API de MangaColor Hub! Ve a /docs para ver la documentación."}
 
 # Añadimos un campo para guardar el ID que Trello le asigne a la tarjeta
 class Chapter(BaseModel):

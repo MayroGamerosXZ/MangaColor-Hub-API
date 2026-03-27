@@ -16,6 +16,27 @@ Python, FastAPI, Uvicorn, Streamlit, Requests, Trello API
 
 ---
 
+## 📚 Documentación
+
+| Documento | Descripción |
+| :--- | :--- |
+| **[Resumen del sistema](docs/system-brief.md)** | Visión, alcance y problema a resolver. |
+| **[Requisitos](docs/requirements.md)** | Historias de usuario, MoSCoW y criterios de aceptación. |
+| **[Arquitectura](docs/architecture.md)** | Arquitectura, decisiones técnicas y diagramas. |
+| **[Especificación OpenAPI](docs/api/openapi.json)** | Contrato completo de la API generada. |
+| **[Tablero Trello](https://trello.com/b/GP8fkMRl/mangacolor-hub-fayri-tail-backlog)** | Backlog del proyecto y tablero automatizado. |
+
+## 🔌 Puntos finales (Endpoints)
+
+| Método | Punto final | Descripción |
+| :--- | :--- | :--- |
+| **GET** | `/` | Estado de la API y mensaje de bienvenida. |
+| **POST** | `/chapters` | Registrar nuevo capítulo (Crea tarjeta en Trello). |
+| **GET** | `/chapters` | Listar el backlog completo de capítulos. |
+| **GET** | `/chapters/{id}` | Consultar información de un capítulo por ID. |
+| **PATCH** | `/chapters/{id}/status` | Actualizar estado de trabajo (Mueve la tarjeta en Trello). |
+---
+
 ## 🚀 Guía para ejecutar y probar el proyecto
 
 **1. Descargar los archivos**

@@ -39,9 +39,11 @@ TRELLO_LIST_DONE=id_lista_done
 
 4. Abrir el Tablero de Trello (Para ver la automatización en vivo)
 Abre el siguiente enlace en tu navegador web y mantenlo a la vista. Aquí aparecerán y se moverán las tarjetas automáticamente según las peticiones de la API:
-```
+
+
 https://trello.com/b/GP8fkMRl/mangacolor-hub-fayri-tail-backlog  
-```
+
+
 5. Ejecutar la API (El Motor / Backend)
 En la terminal que ya tienes abierta en la carpeta del proyecto, enciende el servidor ejecutando:
 

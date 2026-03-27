@@ -35,6 +35,8 @@ TRELLO_TOKEN=tu_token
 TRELLO_LIST_TODO=id_lista_todo
 TRELLO_LIST_IN_PROGRESS=id_lista_in_progress
 TRELLO_LIST_DONE=id_lista_done
+
+Nota: Credenciales del Api y demás en el PDF solcitado
 ```
 
 4. Abrir el Tablero de Trello (Para ver la automatización en vivo)
